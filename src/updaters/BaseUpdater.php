@@ -4,13 +4,13 @@ namespace voskobovich\manytomany\updaters;
 
 use voskobovich\manytomany\interfaces\ManyToManyBehaviorInterface;
 use yii\base\Behavior;
-use yii\base\Object;
+use yii\base\BaseObject;
 
 /**
  * Class BaseUpdater
  * @package voskobovich\manytomany\updaters
  */
-abstract class BaseUpdater extends Object
+abstract class BaseUpdater extends BaseObject
 {
     /**
      * @var ManyToManyBehaviorInterface|Behavior
